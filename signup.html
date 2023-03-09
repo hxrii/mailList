@@ -27,33 +27,33 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
 
 
   </head>
   <body class="text-center">
     
 <main class="form-signin w-100 m-auto">
-  <form>
+  <form action="/" method="post">
     <img class="mb-4" src="./img/hxrii.png" alt=""  height="150">
     <h1 class="h3 mb-3 fw-normal">Sign up to my Newsletter!</h1>
 
-    <div class="form-floating">
-      <input type="text" class="form-control"  placeholder="First Name" required autofocus>
+    <div class="form-floating top">
+      <input type="text" name="fName" class="form-control"  placeholder="First Name" required autofocus>
       <label for="floatingInput">First Name</label>
     </div>
-    <div class="form-floating">
-      <input type="text" class="form-control"  placeholder="Last Name" required>
+    <div class="form-floating middle">
+      <input type="text" name="lName" class="form-control"  placeholder="Last Name" required>
       <label for="floatingPassword">Last Name</label>
     </div>
-    <div class="form-floating">
-      <input type="text" class="form-control"  placeholder="Email Address" required>
+    <div class="form-floating bottom">
+      <input type="text" name="email" class="form-control"  placeholder="Email Address" required>
       <label for="floatingPassword">Email Address</label>
     </div>
 
     
     </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up!</button>
     <p class="mt-5 mb-3 text-muted">&copy; Hari</p>
   </form>
 </main>
